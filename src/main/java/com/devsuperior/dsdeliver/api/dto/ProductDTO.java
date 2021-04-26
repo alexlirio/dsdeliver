@@ -1,8 +1,8 @@
-package com.devsuperior.dsdeliver.dto;
+package com.devsuperior.dsdeliver.api.dto;
 
 import java.io.Serializable;
 
-import com.devsuperior.dsdeliver.entities.Product;
+import com.devsuperior.dsdeliver.domain.model.Product;
 
 public class ProductDTO implements Serializable {
 

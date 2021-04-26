@@ -1,4 +1,4 @@
-package com.devsuperior.dsdeliver.controllers;
+package com.devsuperior.dsdeliver.api.controller;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devsuperior.dsdeliver.dto.ProductDTO;
-import com.devsuperior.dsdeliver.services.ProductService;
+import com.devsuperior.dsdeliver.api.dto.ProductDTO;
+import com.devsuperior.dsdeliver.api.service.ProductService;
 
 @RestController
 @RequestMapping(value = "/products")

@@ -1,4 +1,4 @@
-package com.devsuperior.dsdeliver.controllers;
+package com.devsuperior.dsdeliver.api.controller;
 
 import java.net.URI;
 import java.util.List;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.devsuperior.dsdeliver.dto.OrderDTO;
-import com.devsuperior.dsdeliver.services.OrderService;
+import com.devsuperior.dsdeliver.api.dto.OrderDTO;
+import com.devsuperior.dsdeliver.api.service.OrderService;
 
 @RestController
 @RequestMapping(value = "/orders")

@@ -1,4 +1,4 @@
-package com.devsuperior.dsdeliver.services;
+package com.devsuperior.dsdeliver.api.service;
 
 import java.time.Instant;
 import java.util.List;
@@ -8,13 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dsdeliver.dto.OrderDTO;
-import com.devsuperior.dsdeliver.dto.ProductDTO;
-import com.devsuperior.dsdeliver.entities.Order;
-import com.devsuperior.dsdeliver.entities.OrderStatus;
-import com.devsuperior.dsdeliver.entities.Product;
-import com.devsuperior.dsdeliver.repositories.OrderRepository;
-import com.devsuperior.dsdeliver.repositories.ProductRepository;
+import com.devsuperior.dsdeliver.api.dto.OrderDTO;
+import com.devsuperior.dsdeliver.api.dto.ProductDTO;
+import com.devsuperior.dsdeliver.domain.model.Order;
+import com.devsuperior.dsdeliver.domain.model.OrderStatus;
+import com.devsuperior.dsdeliver.domain.model.Product;
+import com.devsuperior.dsdeliver.domain.repository.OrderRepository;
+import com.devsuperior.dsdeliver.domain.repository.ProductRepository;
 
 @Service
 public class OrderService {

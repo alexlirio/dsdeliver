@@ -1,4 +1,4 @@
-package com.devsuperior.dsdeliver.entities;
+package com.devsuperior.dsdeliver.domain.model;
 
 import java.io.Serializable;
 

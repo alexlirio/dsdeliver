@@ -1,4 +1,4 @@
-package com.devsuperior.dsdeliver.services;
+package com.devsuperior.dsdeliver.api.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dsdeliver.dto.ProductDTO;
-import com.devsuperior.dsdeliver.entities.Product;
-import com.devsuperior.dsdeliver.repositories.ProductRepository;
+import com.devsuperior.dsdeliver.api.dto.ProductDTO;
+import com.devsuperior.dsdeliver.domain.model.Product;
+import com.devsuperior.dsdeliver.domain.repository.ProductRepository;
 
 @Service
 public class ProductService {
